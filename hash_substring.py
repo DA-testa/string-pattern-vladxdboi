@@ -10,7 +10,6 @@ def read_input():
         with open ("./tests/06", mode = "r") as file:
             pattern = file.readline()
             text = file.readline()
-
     return (pattern.rstrip(), text.rstrip())
 
 def print_occurrences(output):
