@@ -11,7 +11,7 @@ def read_input():
             pattern = file.readline()
             text = file.readline()
 
-    return (input().rstrip(), input().rstrip())
+    return (pattern.rstrip(), text.rstrip())
 
 def print_occurrences(output):
     print(' '.join(map(str, output)))
